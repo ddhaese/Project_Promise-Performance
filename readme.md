@@ -42,7 +42,7 @@ const aa = async (i, delay) => {
 };
 ```
 
-Note that `i` is a simple identifier to track what 'thread' is returning when and `delay` is a delay time span uniformly distribution in the range [0, `MAX_DELAY`]. Now, I would loop `N` times over both functions in random order:
+Note that `i` is a simple identifier to track what 'thread' is returning when and `delay` is a delay time span uniformly distributed in the range [0, `MAX_DELAY`]. Now, I would loop `N` times over both functions in random order:
 
 ```js
 for (let i = 0; i < N; i++) {
@@ -62,7 +62,7 @@ setTimeout(() => {
 }, MAX_DELAY + 500);
 ```
 
-(see [code attached](Promise.js) for ful listing).
+(see [code attached](Promise.js) for full listing).
 
 ## Conclusion
 
